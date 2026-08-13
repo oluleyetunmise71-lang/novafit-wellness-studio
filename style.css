@@ -35,6 +35,18 @@ body {
   border-color: #d97706 !important;
   color: #ffffff !important;
 }
+#book-class-btn {
+  background-color: #b45309 !important;
+  border-color: #b45309 !important;
+  color: #ffffff !important;
+}
+
+#book-class-btn:hover,
+#book-class-btn:focus {
+  background-color: #92400e !important;
+  border-color: #92400e !important;
+  color: #ffffff !important;
+}
 
 .btn-secondary:hover, 
 .btn-secondary:focus {
