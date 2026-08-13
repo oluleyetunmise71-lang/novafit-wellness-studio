@@ -55,7 +55,18 @@ textarea:focus-visible,
   outline-offset: 3px !important;
   box-shadow: 0 0 0 0.25rem rgba(217, 119, 6, 0.25) !important;
 }
+#book-class-btn {
+  background-color: #b45309 !important;
+  border-color: #b45309 !important;
+  color: #ffffff !important;
+}
 
+#book-class-btn:hover,
+#book-class-btn:focus-visible {
+  background-color: #92400e !important;
+  border-color: #92400e !important;
+  color: #ffffff !important;
+}
 
 .bg-brand-primary {
   background-color: #1b4332 !important;
