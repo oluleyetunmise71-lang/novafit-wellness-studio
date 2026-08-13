@@ -1,0 +1,111 @@
+:root {
+  --bs-primary: #1b4332;      
+  --bs-primary-rgb: 27, 67, 50;
+  --bs-secondary: #d97706;    
+  --bs-secondary-rgb: 217, 119, 6;
+  --bs-body-bg: #f8f9fa;      
+  --bs-body-color: #212529;    
+  --bs-link-color: #1b4332;
+  --bs-link-hover-color: #0d231a;
+}
+
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+
+.btn-primary {
+  background-color: #1b4332 !important;
+  border-color: #1b4332 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus {
+  background-color: #122e22 !important;
+  border-color: #122e22 !important;
+  color: #ffffff !important;
+}
+
+.btn-secondary {
+  background-color: #d97706 !important;
+  border-color: #d97706 !important;
+  color: #ffffff !important;
+}
+
+.btn-secondary:hover, 
+.btn-secondary:focus {
+  background-color: #b45309 !important;
+  border-color: #b45309 !important;
+  color: #ffffff !important;
+}
+
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+.form-control:focus,
+.btn:focus-visible {
+  outline: 3px solid #d97706 !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 0.25rem rgba(217, 119, 6, 0.25) !important;
+}
+
+
+.bg-brand-primary {
+  background-color: #1b4332 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #f59e0b !important;
+}
+
+
+.card-highlight {
+  border-top: 4px solid #d97706;
+}
+
+
+.table-caption-custom {
+  caption-side: top;
+  font-weight: 600;
+  color: #1b4332;
+  font-size: 1.1rem;
+}
+
+/* Week 5 accessibility and testimonial rotator support */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 2000;
+  padding: 0.75rem 1rem;
+  background: #1b4332;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  outline: 3px solid #d97706;
+  outline-offset: 3px;
+}
+
+.testimonial-slide {
+  display: none;
+}
+
+.testimonial-slide.active {
+  display: block;
+}
